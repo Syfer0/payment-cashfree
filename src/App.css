@@ -1,0 +1,25 @@
+/* CSS*/
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+.nav-a {
+  display: flex;
+  width: 12rem;
+  align-items: center;
+  gap: 0.75rem;
+}
+.Logo {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  position: absolute;
+  left: 0.03125rem;
+  top: 0.03125rem;
+  border-radius: 0.25rem;
+  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
