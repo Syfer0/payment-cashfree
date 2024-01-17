@@ -1,16 +1,17 @@
-import react from "react";
-import { Fragment } from "react";
 import "./App.css";
-
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar"
+import MainContainer from "./components/Maincontainer";
 function App() {
   return (
     <div>
-      <Navbar />
+      <MainContainer/>
+      <Sidebar />
     </div>
   );
 }
 
-function Navbar() {
+function Navbarx() {
   return (
     <div>
       <UsserCard />
@@ -20,7 +21,7 @@ function Navbar() {
 }
 function UsserCard() {
   return (
-    <div className="nav-a">
+    <div className="bg-black">
       <div className="Logo">
         <img src="/public/img/logo.png" alt="logo" />
       </div>
