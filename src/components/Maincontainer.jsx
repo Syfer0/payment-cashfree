@@ -1,7 +1,18 @@
 import React from 'react'
 import Navbar from './Navbar'
  
-
+const OverviewCards = () =>{
+  return(
+    <div className='flex justify-between'>
+  <h3 className=' bg-red-500 border-box rounded h-1 w-64 py-8  text-zinc-900 font-semibold m-8' >online order
+  <p className=' py-8'>231</p>
+  </h3>
+  <h3>Amount received
+    <p>₹23,92,312.19</p>
+  </h3>
+  
+    </div>
+)} 
 const MainContainer = () => {
   return (
     <div className="grow">
@@ -19,7 +30,7 @@ const MainContainer = () => {
                 </svg>
               </aside>
             </section>
-            {/* <OverviewCards /> */}
+            <OverviewCards />
             <h1 className='text-text-dark text-xl font-medium'>Transactions | This Month</h1>
             <aside className=' space-x-3'>
               <span className='py-1.5 px-4 bg-background-light rounded-full text-sm font-medium text-[#808080]'>Payouts {"(22)"}</span>
