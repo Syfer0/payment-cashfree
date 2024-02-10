@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Table from './Table'
  
 
 const PayoutCard = () =>
@@ -96,7 +97,7 @@ const MainContainer = () => {
               <span className='py-1.5 px-4 bg-background-light rounded-full text-sm font-medium text-[#808080]'>Payouts {"(22)"}</span>
               <span className='py-1.5 px-4 bg-secondary rounded-full text-sm font-medium text-white'>Refunds {"(6)"}</span>   
             </aside>
-            {/* <Table />    */}
+            <Table />   
           </main>
     </div>
   )
